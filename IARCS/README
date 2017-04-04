@@ -1,0 +1,16 @@
+This zip file contains the ten output files 1.out, 2.out, ... , 10.out
+and six input files 1.in, 2.in, 3.in, 5.in, 6.in, 10.in.
+
+The input files 4.in, 7.in, 8.in and 9.in are large and are generated using 
+the program generate.c with input files generate-data-4.in, generate-data-7.in,
+generate-data-8.in and generate-data-9.in.
+
+To generate the input files, compile generate.c and execute the following
+sequence of commands.
+
+   generate generate-data-4.in  4.in
+   generate generate-data-7.in  7.in
+   generate generate-data-8.in  8.in
+   generate generate-data-9.in  9.in
+
+This will create the four input files 4.in, 7.in, 8.in, 9.in.
